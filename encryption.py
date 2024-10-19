@@ -77,16 +77,16 @@ def main():
     print("Projek Enkripsi Gabut wkwkwkwkwk")
     print("1. Encrypt")
     print("2. Decrypt")
-    choice = input("Enter your choice (1 or 2): ")
+    choice = input("Masukan pilihan anda [1] atau [2]: ")
 
     if choice == '1':
-        message = input("Enter the message to encrypt: ")
+        message = input("Masukan pesan yang akan dienkripsi: ")
         encrypted_message = encrypt_message(message)
-        print("Encrypted message:", encrypted_message)
+        print("Pesan ter-enkripsi:", encrypted_message)
     elif choice == '2':
-        message = input("Enter the message to decrypt: ")
+        message = input("Masukan pesan yang akan didekripsi: ")
         decrypted_message = decrypt_message(message)
-        print("Decrypted message:", decrypted_message)
+        print("Pesan ter-dekripsi:", decrypted_message)
     else:
         print("Invalid choice. Exiting.")
 
